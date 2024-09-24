@@ -20,7 +20,7 @@ function App() {
   const handleSearch = query => {
     axios
       .get(
-        `https://api.themoviedb.org/3/search/movie?api_key=686954a6867702e2802dd31dcf4680f7&query=${query}`
+        `https://api.themoviedb.org/3/movie/550?api_key=bd6ee6929486fe1c51144ccdadcdea1d&query=${query}`
       )
       .then(response => {
         console.log('Rezultatele căutării:', response.data.results);

@@ -1,0 +1,144 @@
+.movieDetailsContainer {
+  padding: 20px;
+  background-color: #f8f9fad5;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.goBackButton {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.goBackButton:hover {
+  background-color: #db3434;
+}
+
+.moviePoster {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.detailsSection {
+  padding: 20px;
+  background-color: #fffffff3;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.movieTitle {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.movieOverview {
+  font-size: 1.2rem;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.releaseDate {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.tabButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 20px;
+}
+
+.tabButton {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.tabButton:hover {
+  background-color: #db3434;
+}
+
+.castSection,
+.reviewsSection {
+  margin-top: 20px;
+}
+
+.castList,
+.reviewsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.castItem,
+.reviewItem {
+  display: flex;
+
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.actorImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.actorDetails {
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.reviewAuthor {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.reviewContent {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #db3434;
+  line-height: 1.5;
+}
+
+.loadingMessage {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #7f8c8d;
+}
