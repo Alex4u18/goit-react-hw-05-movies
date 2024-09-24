@@ -3,7 +3,7 @@ import {
   HashRouter as Router,
   Routes,
   Route,
-  Navigate,
+  Navigate,     
 } from 'react-router-dom';
 import Header from './components/Header/Header';
 import axios from 'axios';
