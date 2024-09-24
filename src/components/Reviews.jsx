@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import PropTypes from 'prop-types';
-
+          
 function Reviews() {
   const { movieId } = useParams();
   const [reviews, setReviews] = useState([]);
