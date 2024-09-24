@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link, Outlet } from 'react-router-dom';
 import axios from 'axios';
+import PropTypes from 'prop-types';
 
 function MovieDetails() {
   const { movieId } = useParams();
